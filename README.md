@@ -1,4 +1,4 @@
-# human-robot-handover
+# Human-robot-handover
 Human-Robot Handover 
 
 Franka Emika + Allegro Hand packages
