@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot name="ahand" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <link name="world">
+    <origin xyz="0 0 0"/>
+  </link>
+  <xacro:include filename="$(find allegro_hand_description)/allegro_hand_description_right_melodic_franka.urdf.xacro"/>
+  <xacro:allegro_hand_robot parent_link="world" xyz="0 0 0.1" rpy="0 0 0"/>
+
+</robot>

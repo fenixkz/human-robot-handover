@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<robot name="ahand" xmlns:xacro="http://ros.org/wiki/xacro">
+<xacro:macro name="ahand_right" params="parent:='' xyz:='' rpy:=''">
+    <xacro:arg name="hand_type" default="right"/>
+    <xacro:property name="hand_type" default="$(arg hand_type)"/>
+    <xacro:include filename="$(find allegro_hand_description)/allegro_hand_description_$(arg hand_type)_melodic_franka.urdf.xacro"/>
+    <xacro:allegro_hand_robot parent_link="${parent}" xyz="${xyz}" rpy="${rpy}"/>
+</xacro:macro>
+</robot>
