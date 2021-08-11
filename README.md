@@ -7,7 +7,9 @@ Franka Emika + Allegro Hand packages
 **main** package contains all necessary scripts
 
 How to launch:
+
 First launch Franka+Allegro
+
  _**roslaunch moveit_combined panda_control_moveit_rviz.launch**_
  
 Then, launch realsense camera
