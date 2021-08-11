@@ -16,7 +16,7 @@ Then, launch realsense camera
   
 After that, launch aruco tracker
 
-  _**roslaunch my_aruco_tracker usb_cam_stream_publisher_intel.launch** _
+  _**roslaunch my_aruco_tracker usb_cam_stream_publisher_intel.launch**_
   
 And all the nodes
 
