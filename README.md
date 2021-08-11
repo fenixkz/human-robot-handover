@@ -8,20 +8,20 @@ Franka Emika + Allegro Hand packages
 
 How to launch:
 First launch Franka+Allegro
- roslaunch moveit_combined panda_control_moveit_rviz.launch
+ _**roslaunch moveit_combined panda_control_moveit_rviz.launch**_
  
 Then, launch realsense camera
 
-  roslaunch realsense2_camera rs_camera.launch 
+  _**roslaunch realsense2_camera rs_camera.launch**_
   
 After that, launch aruco tracker
 
-  roslaunch my_aruco_tracker usb_cam_stream_publisher_intel.launch 
+  _**roslaunch my_aruco_tracker usb_cam_stream_publisher_intel.launch** _
   
 And all the nodes
 
-  roslaunch main nodes.launch
+  _**roslaunch main nodes.launch**_
   
 And, the main script
 
-  rosrun main main.py
+  _**rosrun main main.py**_
