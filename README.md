@@ -3,4 +3,4 @@ Human-Robot Handover
 
 Franka Emika + Allegro Hand packages
 
-test_tf contains all necessary scripts
+**main** package contains all necessary scripts
