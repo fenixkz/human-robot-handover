@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+	<node name="grasp" pkg="test_tf" type="grasp.py" output="screen"/>
+	<node name="palm" pkg="test_tf" type="palm"/>
+	<node name="position" pkg="test_tf" type="position.py" output="screen"/>
+	<node name="marker" pkg="test_tf" type="marker"/>
+	<node name="nodes" pkg="test_tf" type="nodes.py"/>
+</launch>
